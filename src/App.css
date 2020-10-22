@@ -1,0 +1,39 @@
+.App{
+    overflow: hidden;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: grey;
+    color: #fff;
+}
+
+
+@media screen and (min-width: 768px){
+    .images{
+        min-width: 100%;
+    }
+    .header{
+        padding: 0 20px;
+    }
+    .myImages{
+        min-width: 100%;
+    }
+    .container{
+        margin: 25px 25px;
+    }
+    .food{
+        margin: 0 15px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .myImages{
+        min-width: 100%;
+    }
+    .container{
+        margin: 25px 25px;
+    }
+}
